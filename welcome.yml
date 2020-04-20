@@ -1,0 +1,9 @@
+- name: Install welcome template
+  hosts: all
+  tasks:
+  - name: Template out welcome.j2
+    template:
+       src: welcome.j2
+       dest: /tmp/welcome.txt
+       mode: 0444
+

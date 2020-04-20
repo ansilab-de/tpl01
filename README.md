@@ -1,2 +1,3 @@
 # tpl01
-Trivial template for AWX
+
+A very small AWX lab
