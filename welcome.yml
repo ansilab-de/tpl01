@@ -4,6 +4,6 @@
   - name: Template out welcome.j2
     template:
        src: welcome.j2
-       dest: /tmp/welcome.txt
+       dest: /home/ansible/welcome.txt
        mode: 0444
 
