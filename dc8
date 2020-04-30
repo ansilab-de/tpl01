@@ -1,0 +1,21 @@
+mail.example.com
+
+[webservers]
+foo.example.com
+bar.example.com http_port=80 maxRequestsPerChild=808
+
+[dbservers]
+one.example.com ansible_user=postgres
+two.example.com
+three.example.com ansible_host=192.0.2.50
+
+[winboxes]
+w8.example.com
+
+[winboxes:vars]
+ansible_user=Administrator@EXAMPLE.DE
+ansible_password=secret
+ansible_connection=winrm
+ansible_winrm_server_cert_validation=ignore
+ansible_port=5986
+ansible_winrm_transport=credssp
