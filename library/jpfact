@@ -1,0 +1,11 @@
+#!/bin/sh
+
+cat <<EOF
+{
+    "ansible_facts" : {
+        "whoami" : "Jane Jolie",
+        "mynumber" : 424,
+	"beverage" : "h2o"
+    }
+}
+EOF
